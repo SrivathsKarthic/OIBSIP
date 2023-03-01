@@ -1,0 +1,42 @@
+body {
+    font-family:  Stencil;
+    margin: 5;
+    background-color: #F3ECB0;
+    color: #3C2A21;
+}
+
+header {
+    background-color: #344D67;
+    color: #F3ECB0;
+    padding: 20px;
+}
+
+h1 {
+    margin: 5;
+    padding: 5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 5;
+    padding: 5;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+li::before {
+    content: "•";
+    margin-right: 10px;
+}
+footer {
+    background-color: #344D67;
+    color: #F3ECB0);
+    padding: 20px;
+    text-align: center; 
